@@ -1,5 +1,11 @@
 # Neural-Style-Transfer
 
+This is Neural Style Transfer application based on TensorFlow, adapted from TensorFlow Neural Style Transfer tutorial. 
+Neural Style Transfer (NST) is an application that applies the style of one image into another by utilizing neural networks. 
+This repository provides python-based scripts for interested users to try Neural Style Transfer on Intel platforms. 
+For issues using this repo, please feel free to email huma.abidi@intel.com and wei.v.wang@intel.com.
+
+
 Pre-requisites: Make sure you have python 3.7/3.8/3.9 and virtualenv setup.
 
 # Step 1: Setup and Activate Virtual Environment
