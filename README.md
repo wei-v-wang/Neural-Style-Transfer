@@ -10,23 +10,25 @@ virtualenv test-neural-style-transfer-venv
 # Step 2:  Install TensorFlow
 
 ## Option 1: Install TensorFlow Released by Google, but use "export TF_ENABLE_ONEDNN_OPTS=1" to turn on Intel optimizations. 
-
-pip install tensorflow
+```
+pip install tensorflow  
 export TF_ENABLE_ONEDNN_OPTS=1
+```
 
 Note, at the time of writing, TensorFlow v2.7.0 was used. The above command is equivalent to ``pip install tensorflow==2.7.0``
 
-## Option 2: Install Intel Optimization for TensorFlow(*) Released by Intel(R)
+## Option 2: Install Intel Optimization for TensorFlow Released by Intel
 
 pip install intel-tensorflow
 
 Note, at the time of writing, TensorFlow v2.7.0 was used. 
 
 # Step 3: Install Dependency Python Packages
-
+```
 pip install matplotlib
 pip install tensorflow-hub
 pip install pyqt5
+```
 
 
 # Step 4: Try Neural Style Transfer 
@@ -40,5 +42,5 @@ The above shell script invoke fast neural style transfer script and take content
 # Reference
 
 [1] https://www.tensorflow.org/tutorials/generative/style_transfer 
-[2] https://github.com/jcjohnson/fast-neural-style 
+[2] https://github.com/jcjohnson/fast-neural-style  
 [3] https://arxiv.org/abs/1603.08155
