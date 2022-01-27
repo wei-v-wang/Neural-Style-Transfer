@@ -1,5 +1,5 @@
 # Neural-Style-Transfer
-https://wei-v-wang.github.io/Neural-Style-Transfer/FastNeuralStyleTransfer-Short.mp4
+# Video: https://wei-v-wang.github.io/Neural-Style-Transfer/FastNeuralStyleTransfer-Short.mp4
 
 This is Neural Style Transfer application based on TensorFlow, adapted from TensorFlow Neural Style Transfer tutorial. 
 Neural Style Transfer (NST) is an application that applies the style of one image into another by utilizing neural networks. 
